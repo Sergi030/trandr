@@ -111,7 +111,7 @@ class Application:
 
     def __init__(self, file=None, randr_display=None, force_version=False):
         self.window = window = Gtk.Window()
-        window.props.title = "Screen Layout Editor"
+        window.props.title = "The xRandR GUI"
 
         # actions
         actiongroup = Gtk.ActionGroup('default')
