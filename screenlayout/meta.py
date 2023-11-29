@@ -21,7 +21,7 @@
 from .i18n import _
 
 
-__version__ = '0.1.12'
+__version__ = '1.0.0'
 PROGRAMNAME = _(u'TRandR Screen Layout Editor')
 # translators, please translate in the style of "The XRandR GUI
 # (ein weiteres GUI für XRandR)" so users get both the explanation of
