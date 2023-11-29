@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arandr 0.1.7.1\n"
+"Project-Id-Version: trandr 0.1.7.1\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2018-11-25 10:07+0000\n"
 "Last-Translator: ditokp <ditokpl@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/arandr/"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/trandr/"
 "translations/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
@@ -85,14 +85,14 @@ msgid "Save Layout"
 msgstr "Simpan Tata Letak"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "Editor Tata Letak Layar ARandR"
+msgid "TRandR Screen Layout Editor"
+msgstr "Editor Tata Letak Layar TRandR"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
+msgid "The XRandR GUI"
 msgstr "GUI Lainnya dari XRandR"
 
 #: screenlayout/metacity.py:53

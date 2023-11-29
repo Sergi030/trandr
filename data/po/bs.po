@@ -1,11 +1,11 @@
-# Bosnian translation for arandr
+# Bosnian translation for trandr
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the arandr package.
+# This file is distributed under the same license as the trandr package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arandr\n"
+"Project-Id-Version: trandr\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2012-05-14 19:47+0000\n"
@@ -84,15 +84,15 @@ msgid "Save Layout"
 msgstr "Spremi Raspored"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR Editor Rasporeda Ekrana"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR Editor Rasporeda Ekrana"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another XRandR GUI (Još jedan GUI za XRandR)"
+msgid "The XRandR GUI"
+msgstr "The XRandR GUI (Još jedan GUI za XRandR)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

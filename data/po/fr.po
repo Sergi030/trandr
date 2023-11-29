@@ -1,19 +1,19 @@
-# ARandR
+# TRandR
 # Copyright (C) YEAR chrysn
-# This file is distributed under the same license as the arandr package.
+# This file is distributed under the same license as the trandr package.
 #
 # Translators:
 # Bruno_Patri <bruno.patri@gmail.com>, 2011.
 # Clément DÉMOULINS <clement@archivel.fr>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: ARandR\n"
+"Project-Id-Version: TRandR\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2016-04-09 18:01+0000\n"
 "Last-Translator: Wouazo <ulphace@tutanota.com>\n"
 "Language-Team: French "
-"<https://hosted.weblate.org/projects/arandr/translations/fr/>\n"
+"<https://hosted.weblate.org/projects/trandr/translations/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,15 +87,15 @@ msgid "Save Layout"
 msgstr "Enregistrer une disposition"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR, configuration de la disposition des écrans"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR, configuration de la disposition des écrans"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another XRandR GUI (Un autre interface graphique pour XRandR)"
+msgid "The XRandR GUI"
+msgstr "The XRandR GUI (Un autre interface graphique pour XRandR)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

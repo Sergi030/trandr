@@ -1,4 +1,4 @@
-# ARandR -- Another XRandR GUI
+# TRandR -- The XRandR GUI
 # Copyright (C) 2008 -- 2011 chrysn <chrysn@fsfe.org>
 #
 # This program is free software: you can redistribute it and/or modify

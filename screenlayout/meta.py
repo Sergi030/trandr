@@ -1,6 +1,6 @@
 # This Python file uses the following encoding: utf-8
 
-# ARandR -- Another XRandR GUI
+# TRandR -- The XRandR GUI
 # Copyright (C) 2008 -- 2011 chrysn <chrysn@fsfe.org>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -21,12 +21,12 @@
 from .i18n import _
 
 
-__version__ = '0.1.11'
-PROGRAMNAME = _(u'ARandR Screen Layout Editor')
-# translators, please translate in the style of "Another XRandR GUI
+__version__ = '0.1.12'
+PROGRAMNAME = _(u'TRandR Screen Layout Editor')
+# translators, please translate in the style of "The XRandR GUI
 # (ein weiteres GUI für XRandR)" so users get both the explanation of
 # the acronym and a localized version.
-PROGRAMDESCRIPTION = _(u'Another XRandR GUI')
+PROGRAMDESCRIPTION = _(u'The XRandR GUI')
 COPYRIGHT = u'© chrysn 2008 – 2019, Себастьян Gli ţa Κατινα 2011, Johannes Holmberg 2015, actionless 2019'
 
 # other names of contributors found in the git history. mailmap (see

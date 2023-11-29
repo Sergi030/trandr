@@ -1,4 +1,4 @@
-# ARandR -- Another XRandR GUI
+# TRandR -- The XRandR GUI
 # Copyright (C) 2008 -- 2011 chrysn <chrysn@fsfe.org>
 # copyright (C) 2019 actionless <actionless.loveless@gmail.com>
 #
@@ -14,7 +14,7 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
-"""Main GUI for ARandR"""
+"""Main GUI for TRandR"""
 # pylint: disable=deprecated-method,deprecated-module,wrong-import-order,missing-docstring,wrong-import-position
 
 import os
@@ -154,7 +154,7 @@ class Application:
         self.uimanager.add_ui_from_string(self.uixml)
 
         # widget
-        self.widget = widget.ARandRWidget(
+        self.widget = widget.TRandRWidget(
             display=randr_display, force_version=force_version,
             window=self.window
         )

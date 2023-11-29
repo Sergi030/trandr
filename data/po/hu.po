@@ -1,16 +1,16 @@
-# Hungarian translation for arandr
+# Hungarian translation for trandr
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the arandr package.
+# This file is distributed under the same license as the trandr package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arandr\n"
+"Project-Id-Version: trandr\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2014-12-20 19:42+0200\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/arandr/"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/trandr/"
 "translations/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -86,14 +86,14 @@ msgid "Save Layout"
 msgstr "Elrendezés mentése"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR Kijelző elrendezésszerkesztő"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR Kijelző elrendezésszerkesztő"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
+msgid "The XRandR GUI"
 msgstr "Egy mAsik XRandR GUI"
 
 #: screenlayout/metacity.py:53

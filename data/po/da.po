@@ -1,19 +1,19 @@
-# Danish translation ARandR.
+# Danish translation TRandR.
 # Copyright (C) 2009 chrysn & Joe Hansen.
-# This file is distributed under the same license as the ARandR package.
+# This file is distributed under the same license as the TRandR package.
 # Joe Hansen <joedalton2@yahoo.dk>, 2010.
 #
 # output -> skærm (se forklaring længere nede).
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arandr 0.1.2\n"
+"Project-Id-Version: trandr 0.1.2\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2015-08-05 20:24+0200\n"
 "Last-Translator: Sebastian Wahl <swahl11@student.aau.dk>\n"
 "Language-Team: Danish "
-"<https://hosted.weblate.org/projects/arandr/translations/da/>\n"
+"<https://hosted.weblate.org/projects/trandr/translations/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -87,17 +87,17 @@ msgid "Save Layout"
 msgstr "Gem Opsætning"
 
 # skærmudseende. Muligvis er "skærmopsætning" mere dækkende.  XRandR,
-# som ARandR vist er en grænseflade til, styrer skærmopløsning, rotation osv.
+# som TRandR vist er en grænseflade til, styrer skærmopløsning, rotation osv.
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR - redigering af skærmopsætning"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR - redigering af skærmopsætning"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another XRandR GUI (en anden XRandR-grænseflade)"
+msgid "The XRandR GUI"
+msgstr "The XRandR GUI (en anden XRandR-grænseflade)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

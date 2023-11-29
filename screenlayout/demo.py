@@ -1,4 +1,4 @@
-# ARandR -- Another XRandR GUI
+# TRandR -- The XRandR GUI
 # Copyright (C) 2008 -- 2011 chrysn <chrysn@fsfe.org>
 #
 # This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-"""Demo application, primarily used to make sure the screenlayout library can be used independent of ARandR.
+"""Demo application, primarily used to make sure the screenlayout library can be used independent of TRandR.
 
 Run by calling the main() function."""
 
@@ -31,20 +31,20 @@ def main():
     window = Gtk.Window()
     window.connect('destroy', Gtk.main_quit)
 
-    arandr = widget.ARandRWidget(window=window)
-    arandr.load_from_x()
+    trandr = widget.TRandRWidget(window=window)
+    trandr.load_from_x()
 
     reload_button = Gtk.Button("Reload")
-    reload_button.connect('clicked', lambda *args: arandr.load_from_x())
+    reload_button.connect('clicked', lambda *args: trandr.load_from_x())
 
     apply_button = Gtk.Button("Apply")
-    apply_button.connect('clicked', lambda *args: arandr.save_to_x())
+    apply_button.connect('clicked', lambda *args: trandr.save_to_x())
 
     vbox = Gtk.VBox()
     window.add(vbox)
-    vbox.add(arandr)
+    vbox.add(trandr)
     vbox.add(reload_button)
     vbox.add(apply_button)
-    window.set_title('Simple ARandR Widget Demo')
+    window.set_title('Simple TRandR Widget Demo')
     window.show_all()
     Gtk.main()

@@ -1,16 +1,16 @@
-# Galician translation for arandr
+# Galician translation for trandr
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the arandr package.
+# This file is distributed under the same license as the trandr package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arandr\n"
+"Project-Id-Version: trandr\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2018-05-28 10:38+0000\n"
 "Last-Translator: Miguel A. Bouzada <mbouzada@gmail.com>\n"
-"Language-Team: Galician <https://hosted.weblate.org/projects/arandr/"
+"Language-Team: Galician <https://hosted.weblate.org/projects/trandr/"
 "translations/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -86,15 +86,15 @@ msgid "Save Layout"
 msgstr "Gardar a disposición"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "Editor de disposicións de ARandR"
+msgid "TRandR Screen Layout Editor"
+msgstr "Editor de disposicións de TRandR"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another XRandR GUI (Outra IGU de XRandR)"
+msgid "The XRandR GUI"
+msgstr "The XRandR GUI (Outra IGU de XRandR)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

@@ -6,13 +6,13 @@
 #   <glasbarg@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: ARandR\n"
+"Project-Id-Version: TRandR\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2016-09-01 16:58+0000\n"
 "Last-Translator: tornoz <tornoz@laposte.net>\n"
 "Language-Team: Breton "
-"<https://hosted.weblate.org/projects/arandr/translations/br/>\n"
+"<https://hosted.weblate.org/projects/trandr/translations/br/>\n"
 "Language: br\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,15 +84,15 @@ msgid "Save Layout"
 msgstr "Enrollañ un aozadur"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR; kefluniadur aozadur ar skrammoù"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR; kefluniadur aozadur ar skrammoù"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another XRandR GUI (un etrefas all evit XRandR)"
+msgid "The XRandR GUI"
+msgstr "The XRandR GUI (un etrefas all evit XRandR)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

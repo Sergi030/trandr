@@ -7,12 +7,12 @@
 # sjb <gseba@users.sourceforge.net>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: ARandR\n"
+"Project-Id-Version: TRandR\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2018-06-17 20:05+0000\n"
 "Last-Translator: Calin Sopterean <csopterean@gmail.com>\n"
-"Language-Team: Romanian <https://hosted.weblate.org/projects/arandr/"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/trandr/"
 "translations/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -88,15 +88,15 @@ msgid "Save Layout"
 msgstr "Salvare configuraţie"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR, editor configuraţii ecrane"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR, editor configuraţii ecrane"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another ARandR GUI (un alt GUI pentru XRandR)"
+msgid "The XRandR GUI"
+msgstr "Another TRandR GUI (un alt GUI pentru XRandR)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

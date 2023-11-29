@@ -3,7 +3,7 @@
 import gettext
 
 
-TRANSLATION = gettext.translation('arandr', fallback=True)
+TRANSLATION = gettext.translation('trandr', fallback=True)
 
 
 def _(msg: str) -> str:

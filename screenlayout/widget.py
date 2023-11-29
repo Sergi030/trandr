@@ -1,5 +1,5 @@
 """
-ARandR -- Another XRandR GUI
+TRandR -- The XRandR GUI
 Copyright (C) 2008 -- 2011 chrysn <chrysn@fsfe.org>
 copyright (C) 2019 actionless <actionless.loveless@gmail.com>
 
@@ -33,7 +33,7 @@ from .auxiliary import Position, NORMAL, ROTATIONS, InadequateConfiguration
 from .i18n import _
 
 
-class ARandRWidget(Gtk.DrawingArea):
+class TRandRWidget(Gtk.DrawingArea):
 
     sequence = None
     _lastclick = None
@@ -47,7 +47,7 @@ class ARandRWidget(Gtk.DrawingArea):
     }
 
     def __init__(self, window, factor=8, display=None, force_version=False):
-        super(ARandRWidget, self).__init__()
+        super(TRandRWidget, self).__init__()
 
         self.window = window
         self._factor = factor

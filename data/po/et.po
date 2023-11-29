@@ -1,17 +1,17 @@
-# Estonian translations for arandr package.
+# Estonian translations for trandr package.
 # Copyright (C) 2014 chrysn
-# This file is distributed under the same license as the arandr package.
+# This file is distributed under the same license as the trandr package.
 # Automatically generated, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arandr 0.1.4\n"
+"Project-Id-Version: trandr 0.1.4\n"
 "Report-Msgid-Bugs-To: chrysn@fsfe.org\n"
 "POT-Creation-Date: 2015-05-21 10:02+0200\n"
 "PO-Revision-Date: 2015-11-09 09:19+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian "
-"<https://hosted.weblate.org/projects/arandr/translations/et/>\n"
+"<https://hosted.weblate.org/projects/trandr/translations/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,15 +85,15 @@ msgid "Save Layout"
 msgstr "Salvesta paigutus"
 
 #: screenlayout/meta.py:23
-msgid "ARandR Screen Layout Editor"
-msgstr "ARandR ekraani paigutuse toimeti"
+msgid "TRandR Screen Layout Editor"
+msgstr "TRandR ekraani paigutuse toimeti"
 
-#. # translators, please translate in the style of "Another XRandR GUI
+#. # translators, please translate in the style of "The XRandR GUI
 #. # (ein weiteres GUI für XRandR)" so users get both the explanation of
 #. # the acronym and a localized version.
 #: screenlayout/meta.py:27
-msgid "Another XRandR GUI"
-msgstr "Another XRandR GUI (järgmine XRandR GUI)"
+msgid "The XRandR GUI"
+msgstr "The XRandR GUI (järgmine XRandR GUI)"
 
 #: screenlayout/metacity.py:53
 msgid "Accelerator"

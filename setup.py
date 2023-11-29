@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# ARandR -- Another XRandR GUI
+# TRandR -- The XRandR GUI
 # Copyright (C) 2008 -- 2011 chrysn <chrysn@fsfe.org>
 # 
 # This program is free software: you can redistribute it and/or modify
@@ -36,18 +36,18 @@ from distutils.command.install import install as _install
 from distutils.command.sdist import sdist as _sdist
 from distutils.dir_util import remove_tree
 from distutils.command.clean import clean as _clean
-
+from screenlayout.meta import __version__
 
 PO_DIR = 'data/po'
 POT_FILE = os.path.join(PO_DIR, 'messages.pot')
 
-PACKAGENAME = "arandr"
-PACKAGEVERSION = "0.1.11"
-AUTHOR = "chrysn"
-AUTHOR_MAIL = "chrysn@fsfe.org"
-URL = "http://christian.amsuess.com/tools/arandr/"
+PACKAGENAME = "trandr"
+PACKAGEVERSION = __version__
+AUTHOR = "sgarcia"
+AUTHOR_MAIL = "me@sgarcia.dev"
+URL = ""
 LICENSE = "GNU GPL 3"
-DESCRIPTION = "Screen layout editor for xrandr (Another XRandR gui)"
+DESCRIPTION = "Screen layout editor for trandr (The XRandR gui)"
 
 class NoOptionCommand(Command):
     """Command that doesn't take any options"""
@@ -83,7 +83,7 @@ class build_trans(NoOptionCommand):
         self.mkpath(os.path.join("build", "locale")) # create directory even if there are no files, otherwise install would complain
         for po in glob.glob(os.path.join(PO_DIR,'*.po')):
             lang = os.path.basename(po[:-3])
-            mo = os.path.join('build', 'locale', lang, 'LC_MESSAGES', 'arandr.mo')
+            mo = os.path.join('build', 'locale', lang, 'LC_MESSAGES', 'trandr.mo')
 
             directory = os.path.dirname(mo)
             self.mkpath(directory)
@@ -101,7 +101,7 @@ class build_man(NoOptionCommand):
         self.mkpath('build')
 
         for (sourcefile, gzfile) in [
-                ('data/arandr.1.txt', os.path.join('build', 'arandr.1.gz')),
+                ('data/trandr.1.txt', os.path.join('build', 'trandr.1.gz')),
                 ('data/unxrandr.1.txt', os.path.join('build', 'unxrandr.1.gz')),
                 ]:
 
@@ -204,21 +204,21 @@ class install_data(_install_data):
     def run(self):
         for lang in os.listdir('build/locale/'):
             lang_dir = os.path.join('share', 'locale', lang, 'LC_MESSAGES')
-            lang_file = os.path.join('build', 'locale', lang, 'LC_MESSAGES', 'arandr.mo')
+            lang_file = os.path.join('build', 'locale', lang, 'LC_MESSAGES', 'trandr.mo')
             self.data_files.append((lang_dir, [lang_file]))
 
         _install_data.run(self)
 
 class sdist(_sdist):
     def run(self):
-        warn("WARNING: Usually, arandr's source tarballs are generated from `git archive`!")
+        warn("WARNING: Usually, trandr's source tarballs are generated from `git archive`!")
         _sdist.run(self)
 
 class clean(_clean):
     def run(self):
         if self.all:
             dirs = ['build/locale']
-            files = ['build/arandr.1.gz', 'build/unxrandr.1.gz']
+            files = ['build/trandr.1.gz', 'build/unxrandr.1.gz']
             for directory in dirs:
                 if os.path.exists(directory):
                     remove_tree(directory, dry_run=self.dry_run)
@@ -258,8 +258,8 @@ setup(name = PACKAGENAME,
             'update_translator_credits': update_translator_credits,
             },
         data_files = [
-            ('share/applications', ['data/arandr.desktop']), # FIXME: use desktop-file-install?
-            ('share/man/man1', ['build/arandr.1.gz', 'build/unxrandr.1.gz']),
+            ('share/applications', ['data/trandr.desktop']), # FIXME: use desktop-file-install?
+            ('share/man/man1', ['build/trandr.1.gz', 'build/unxrandr.1.gz']),
             ],
-        scripts = ['arandr', 'unxrandr'],
+        scripts = ['trandr', 'unxrandr'],
 )
