@@ -23,7 +23,7 @@ Install instructions
 
   * Or install it::
 
-      sudo ./setup.py install
+      sudo pip install .
 
 
 
