@@ -2,18 +2,13 @@
 TRandR: The XRandR GUI
 ==========================
 
+TRandR is a fork from Arandr [https://gitlab.com/arandr/arandr](https://gitlab.com/arandr/arandr). You can find the detailed changed list of changes in the `CHANGELOG` file.
 
-TRandR is designed to provide a simple visual front end for XRandR_. Relative monitor positions are shown graphically and can be changed in a drag-and-drop way.
+As it's parent is designed to provide a simple visual front end for XRandR_. Relative monitor positions are shown graphically and can be changed in a drag-and-drop way.
 
 
-
-Features
+Install instructions
 --------
-
-* Full control over output positioning (instead of plain "left of") with edge snapping
-* Saving configurations as executable shell scripts (configurations can be loaded without using this program)
-* Configuration files can be edited to include additional payload (like xsetwacom_ commands tablet PC users need when rotating), which is preserved when editing
-* Main widget separated from packaged application (to facilitate integration with existing solutions)
 
 * From source:
 
@@ -26,7 +21,7 @@ Features
 
       ./trandr
 
-  * or install it::
+  * Or install it::
 
       sudo ./setup.py install
 
@@ -49,6 +44,7 @@ A number of other programs exist that cover similar functionality, often
 bundled with a particular desktop environment. Those I know of are, in
 alphabetical order:
 
+* Arandr <https://gitlab.com/arandr/arandr>
 * Gnome's ``gnome-control-center display``, notable for its ``~/.config/monitors.xml`` `persistence <https://wiki.gnome.org/Attic/RandR#Storage_of_RANDR_configurations>`_
 * `grandr <ftp://ftp.freedesktop.org/pub/individual/app/>`_
 * `grandr-applet <https://sites.google.com/site/kdekorte2/grandr_applet>`_ (which seems not to be related to grandr)
@@ -56,7 +52,6 @@ alphabetical order:
 * LXDE's `LXRandR <http://wiki.lxde.org/en/LXRandR>`_, notable for storing configuration in ``~/.config/autostart/lxrandr-autostart``
 * `urandr <http://www.albertomilone.com/wordpress/?p=288>`_
 * `zarfy <http://sourceforge.net/projects/zarfy/>`_, notable for its nice use of a current screenshot
-
 
 
 Contributing
@@ -72,7 +67,7 @@ If you want to support the project via flattr, you can `flattr this`_.
 About
 -----
 
-Copyright © chrysn_ <chrysn@fsfe.org> 2008–2019, Себастьян Gli ţa Κατινα 2011, Johannes Holmberg <johannes@update.uu.se> 2015, actionless 2019 published under GPLv3_ or any later version.
+Copyright © <me@sgarcia.dev> 2023, chrysn_ <chrysn@fsfe.org> 2008–2019, Себастьян Gli ţa Κατινα 2011, Johannes Holmberg <johannes@update.uu.se> 2015, actionless 2019 published under GPLv3_ or any later version.
 
 Inspired by the `dual head sketch`_ in the ThinkWiki_.
 
